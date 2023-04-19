@@ -101,12 +101,12 @@ b_mais = Button(frame_corpo, command = lambda: entrar_valores('+'), text="+", wi
                 font=('Arial', 13, 'bold'), relief=RAISED, overrelief=RIDGE)
 b_mais.place(x=177, y=156)
 # -=-=-=-=-=-=-=
-b_apagar = Button(frame_corpo, command = lambda: entrar_valores('%'), text="0", width=11, height=2, bg=cor4, fg=cor2,
+b_zero = Button(frame_corpo, command = lambda: entrar_valores('0'), text="0", width=11, height=2, bg=cor4, fg=cor2,
                   font=('Arial', 13, 'bold'), relief=RAISED, overrelief=RIDGE)
-b_apagar.place(x=0, y=208)
-b_porc = Button(frame_corpo, command = lambda: entrar_valores('%'), text=",", width=5, height=2, bg=cor4, fg=cor2,
+b_zero.place(x=0, y=208)
+b_virg = Button(frame_corpo, command = lambda: entrar_valores('.'), text=",", width=5, height=2, bg=cor4, fg=cor2,
                 font=('Arial', 13, 'bold'), relief=RAISED, overrelief=RIDGE)
-b_porc.place(x=118, y=208)
+b_virg.place(x=118, y=208)
 b_igual = Button(frame_corpo, command = lambda: calcular(), text="=", width=5, height=2, bg=cor5, fg=cor2,
                font=('Arial', 13, 'bold'), relief=RAISED, overrelief=RIDGE)
 b_igual.place(x=177, y=208)
